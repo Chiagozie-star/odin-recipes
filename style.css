@@ -1,0 +1,82 @@
+body {
+    /* old browser */
+    background: #141E30;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+    /* W3C IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(-45deg, #35577D, #141E30);
+    margin: 0%;
+    padding: 0%;
+}
+
+.image-resize1 {
+    display: inline-flex;
+    margin: 10px;
+    width: 400px;
+    height: 400px;
+    padding: 100px;
+    float: left;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.meals {
+    text-align: center;
+}
+
+.dishes {
+    padding: 10px;
+    margin: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+.burger {
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+}
+
+.salami {
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+}
+
+.salsa {
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+}
+
+.burger :hover {
+    color: red;
+    border: 0cm;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+
+
+.salami :hover {
+    color: red;
+    border: 0cm;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+.salsa :hover {
+    color: red;
+    border: 0cm;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
